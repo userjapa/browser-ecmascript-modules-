@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Native ES6 Modules Test">
+    <meta name="keywords" content="HTML,CSS,JavaScript,ES6">
+    <meta name="author" content=userjapa>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native ES6 Modules Test</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="app__header container">
+        <div class="app__header__images grow-1 container justify-start items-center">
+          <div class="app__header__images__item">
+            <img src="https://cdn-images-1.medium.com/max/1200/1*p_TXIYJhH9pK1f71UxmA1Q.png" alt="js_logo">
+          </div>
+          <div class="app__header__images__item">
+            <img src="https://app.itsquiz.com/be/user-static/images/quizImages/55e4628dfee9bf6e141320c41449446135123-minimized.png" alt="es6_logo">
+          </div>
+        </div>
+        <nav class="grow-025 container justify-end items-center">
+          <ul class="container justify-end items-center">
+            <li><img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="GitHub"></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="app__section">
+        <article class="app__section__article container column justify-center items-center text-center">
+          <header class="grow-025">
+            <h4>Testing ES6 Modules on Browser</h4>
+            <p>Access Time: <time></time></p>
+          </header>
+          <div class="grow-1">
+            <p>
+              <button type="button" name="start">Start</button>
+              <button type="button" name="stop">Stop</button>
+            </p>
+            <p>Clock: <time></time></p>
+          </div>
+          <div class="grow-025">
+            <p>Check if the es6 modules were loaded</p>
+          </div>
+        </article>
+      </section>
+      <aside class="app__aside text-center">
+    		<h2>Overview</h2>
+    		<p>The secret of using ECMAScript Modules on modern browsers is importing the script setting its type as a module and using the .mjs file type.</p>
+    	</aside>
+      <footer class="app__footer container justify-end items-center">
+    		<p>created by <strong>userJapa</strong></p>
+    	</footer>
+    </div>
+    <!-- <script type="text/javascript" src="assets/js/index.js"></script> -->
+    <script type="module" src="assets/js/index.mjs"></script>
+  </body>
+</html>

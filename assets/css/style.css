@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.container.column {
+  flex-direction: column;
+}
+
+.container.justify-center {
+  justify-content: center;
+}
+.container.justify-start {
+  justify-content: flex-start;
+}
+.container.justify-end {
+  justify-content: flex-end;
+}
+.container.items-center {
+  align-items: center;
+}
+
+.container .grow-025 {
+  flex-grow: .25;
+}
+.container .grow-05 {
+  flex-grow: .5;
+}
+.container .grow-075 {
+  flex-grow: .75;
+}
+.container .grow-1 {
+  flex-grow: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#app {
+  height: calc(100vh - 15px);
+  width: calc(100vw - 70px);
+  padding: 15px 35px;
+  padding-bottom: 0;
+}
+
+.app__header {
+  height: calc(8.25vh - 15px);
+  padding-bottom: 15px;
+}
+.app__header__images__item:not(:first-child) {
+  margin-left: 15px;
+}
+.app__header__images__item img {
+  height: calc(8.25vh - 15px);
+  max-height: calc(8.25vh - 15px);
+}
+.app__header nav ul li:not(:last-child) {
+  margin-right: 15px;
+}
+.app__header nav ul li img {
+  width: 40px;
+  height: 40px;
+}
+
+.app__section {
+  height: calc(54.25vh - 15px);
+  padding-bottom: 15px;
+}
+.app__section__article {
+  height: 100%;
+}
+
+.app__aside {
+  height: calc(32vh - 30px);
+  padding-bottom: 15px;
+}
+
+.app__footer {
+  height: 5.5vh;
+}
